@@ -29,3 +29,30 @@
 #   print("Przejedziesz bezpiecznie")
 # else:
 #   print("Lepiej nie jedź jesxteś za ciężki")
+
+#zad5
+# a= int(input())
+# b= int(input())
+# c= int(input())
+
+# if (c>a and c<b) or (c>b c<a):
+#   print("TAK")
+# else:
+#   print("NIE")
+
+#zad6
+# if(a**p-a) % p==0:
+#   print("TAK,spełnia MTF")
+# else:
+#   print("NIE,nie spełnia MTF")
+
+#zad7
+# p=int(input())
+# s=int(input())
+# k=int(input())
+
+# if=(s*3)+p >=k:
+#   print("TAK")
+# else:
+#   print("NIE")
+
