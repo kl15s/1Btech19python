@@ -17,14 +17,21 @@
 #   print("NIE")
 
 #zad3
-k= int(input())
-l= int(input())
-m= int(input())
+# k= int(input())
+# l= int(input())
+# m= int(input())
 
-if k-l==0 or l-k==0 or l-m==0 or m-l==0 or k-m==0 or m-k==0:
-  print("TAK")
-else:
-  print("NIE")
+# if k==l:
+#   print("TAK")
+#   print(k,l)
+# if l==m:
+#   print("TAK")
+#   print(l,m)
+# if m==k:
+#   print("TAK")
+#   print(m,k)
+# else:
+#   print("NIE")
 
 
 #zad4
@@ -40,15 +47,29 @@ else:
 # b= int(input())
 # c= int(input())
 
-# if a<(b+c) or b<(a+c) or c<(b+a):
+# if a<(b+c) and a>(b-c) and b<(a+c) and b>(a-c) and c<(a+b) and c>(a-b):
 #   print("TAK")
 # else:
 #   print("NIE")
 
 #zad6
-a= int(input())
-b= int(input())
-c= int(input())
+# a= int(input())
+# b= int(input())
+# c= int(input())
+
+# if (a**2)+(b**2)<(c**2):
+#   print("TRÓJKĄT ROZWARTOKĄTNY")
+
+# if (a**2)+(b**2)>(c**2):
+#   print("TRÓJKĄT OSTROKĄTNY")
+
+# if (a**2)+(b**2)==(c**2):
+#   print("TRÓJKĄT PROSTOKĄTNY")
+  
+
+
+
+
 
 
   
