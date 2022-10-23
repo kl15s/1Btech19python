@@ -21,9 +21,9 @@
 # for i in range(10,100,1):
 #   print(109-i,end=" ")
   
-# pętla liczb 3-cyfrowych podzielnych przez 20
-# for i in range(100,1000,20):
-#   print(i,end=" ")
+#pętla liczb 3-cyfrowych podzielnych przez 20
+for i in range(100,1000,20):
+  print(i,end=" ")
 
 #zad1
 # n= int(input())
@@ -34,9 +34,9 @@
 # for i in range(105,1000,15):
 #   print(i,end=" ")
 
-for i in range (100,1000):
-  if i %15==0
-  print(i,end=" ")
+# for i in range (100,1000):
+#   if i %15==0
+#   print(i,end=" ")
 
   
   
