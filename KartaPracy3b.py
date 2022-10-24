@@ -12,6 +12,12 @@
 # for i in range(100,1000,5):
 #   print(i, end=" ")
 
+# for k in range(102,1000,6):
+#   print(k, end=" ")
+
+# for m in range(110,1000,11):
+#   print(m, end=" ")
+
 #zad5
-n=int(input())
-for i in range()
+
+#zad6
