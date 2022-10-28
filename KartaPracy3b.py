@@ -3,7 +3,6 @@
 #   print(i, end=" ")
 
 #zad2
-
 #zad3
 # for i in range(1516,10000,379):
 #   print(i, end=" ")
@@ -19,5 +18,19 @@
 #   print(m, end=" ")
 
 #zad5
+# n=int(input("Ile liczb chcesz podać?"))
+# suma=0
+# for i in range(n):
+#   print(i, suma)
 
 #zad6
+n=int(input("Ile liczb chcesz do siebie dodać?"))
+liczba=1
+suma=0
+
+
+#zad7
+# m=int(input()
+
+# for i in range(11,100,2):
+  
