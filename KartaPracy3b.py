@@ -35,7 +35,7 @@
 
 # for i in range(0,2*k,2):
 #   a=a+i
-#   print("Suma początkowych liczb parzystychv wynosi:")
+#   print("Suma początkowych liczb parzystych wynosi:")
 #   print(a)
 
 #zad7
