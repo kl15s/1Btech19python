@@ -11,3 +11,13 @@
 # print("Liczba jest pierwsza")
 
 #2 Generowanie liczb pierwszych
+# n = int(input("Podaj do ilu mam szukać liczb pierwszych: \n"))
+
+# for i in range(2, n+1):
+#     flaga = True
+#     for j in range(2,int(i**0.5)+1):
+#         if i % j == 0:
+#             flaga = False
+#             break
+#     if flaga == True:
+#         print(i, end=" ")
