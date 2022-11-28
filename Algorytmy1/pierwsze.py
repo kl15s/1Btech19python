@@ -21,3 +21,24 @@
 #             break
 #     if flaga == True:
 #         print(i, end=" ")
+
+#q=int(input())
+#p=int(input("Podaj do ilu mam szukać liczb pierwszych: \n"))
+
+#3 generaowanie liczb pierwszych (pierwsze n liczb parzystych)
+ 
+# p = int(input("Podaj do ilu mam szukać liczb pierwszych: \n"))
+# i=2
+# while 1:
+#     flaga = True
+#     for j in range(2,int(i**0.5)+1):
+#         if i % j == 0:
+#             flaga = False
+#             break
+#     if flaga == True:
+#         print(i, end=" ")
+#     licznik+=1
+#   if licznik==p:
+#       break
+#     else:
+#       i=i+1
