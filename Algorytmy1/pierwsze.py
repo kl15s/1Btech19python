@@ -24,6 +24,15 @@
 
 #q=int(input())
 #p=int(input("Podaj do ilu mam szukać liczb pierwszych: \n"))
+# for i in range(p, q+1):
+#     flaga = True
+#     for j in range(2,int(i**0.5)+1):
+#         if i % j == 0:
+#             flaga = False
+#             break
+#     if flaga == True:
+#         print(i, end=" ")
+
 
 #3 generaowanie liczb pierwszych (pierwsze n liczb parzystych)
  
