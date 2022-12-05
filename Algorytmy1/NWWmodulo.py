@@ -1,7 +1,8 @@
-a=int(input())
-b=int(input())
+a, b = int(input()), int(input())
 
-while b>0:
-  a,b=b,a%b
-  NWD=a
-  print()
+iloczyn = a * b
+while b > 0:
+    a, b = b, a % b
+nwd = a
+
+print(iloczyn // nwd)
