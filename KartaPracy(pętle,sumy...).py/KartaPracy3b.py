@@ -3,31 +3,29 @@
 #   print(i, end=" ")
 
 #zad2
-# for i in range(1,10,2):
-#   print(i**2, end=" ")
+# a=1
+# while True:
+#      print(a**2) 
+#      a=a+2
 
 #zad3
-# for i in range(1516,10000,379):
-#   print(i, end=" ")
+# for i in range(1000,10000):
+#    if i%379==0:
+#      print(i)
 
 #zad4
-# for i in range(100,1000,5):
-#   print(i, end=" ")
-
-# for k in range(102,1000,6):
-#   print(k, end=" ")
-
-# for m in range(110,1000,11):
-#   print(m, end=" ")
+# for i in range(100,1000):
+#   if i%5==0 or i%6==0 or i%11==0:
+#      print(i)
 
 #zad5
 # n=int(input("Ile liczb chcesz podać?"))
-# suma=0
+# k=0
 
 # for i in range(n):
 #   y=int(input())
-#   suma=suma+y
-#   print(suma)
+#   k=k+y
+#   print(k)
 
 #zad6
 # k=int(input())
@@ -35,48 +33,41 @@
 
 # for i in range(0,2*k,2):
 #   a=a+i
-#   print("Suma początkowych liczb parzystych wynosi:")
+#  print("Suma liczb początkowych     parzystych wynosi:")
 #   print(a)
 
 #zad7
 # m=int(input())
 # a=0
 
-# for i in range(11,(m*2)+11,2):
+# for i in range(11,(m*2)+10,2):
+#   if i<100:
 #   a=a+i
 #   print("Suma liczb początkowych nieparzystych wynosi:")
 #   print(a)
 
 #zad8
-# W0=int(input("Podaj wartość początkową inwestycji:")) 
-# L=int(input("Podaj lata inwestycji:"))
-# Wk=0
-# suma=Wk
+# W=int(input("Wartość początkowa inwestycji:")) 
+# L=int(input("Lata inwestycji:"))
+# a=W
 
-# for i in range(0,L * 12):
-#   Wk=suma*0.06*(1/12)
-#   suma= suma+Wk
+# for i in range(L * 12):
+#   W=W+a*(0,5/100)
 #   print("Końcowa wartość inwestycji wynosi:")
-#   print(suma)
+#   print(W)
 
 #zad9
 # n=int(input("Podaj ilość liczb:"))
-# a=21
-# suma=0
+# a=0
 
-# for i in range(0,n+1):
-#   for t in range(0,i,a):
-#     print(a)
-#     suma=suma+a
-#     a=a+100
-#     print("Suma liczb wynosi:")
-#     print(suma)
+# for i in range(21,n*100+21,100):
+#    a=a+i
+#   print("Suma liczb wynosi:")
+#   print(a)
 
 #zad10
-# from cmath import sqrt
-
-# for i in range(1,1000):
-#   if i%10==sqrt(i):
-#     print(i)
-#   elif i%100==sqrt(i):
-#     print(i)
+# for i in range (1,1000):
+#    if i%10==i**(1/2):
+#      print(i)
+#    elif i%100==i**(1/2)
+#      print(i)
