@@ -37,15 +37,15 @@
 #   print(ilość)
 
 #zadanie4
-ilość=0
-suma=0
+#ilość=0
+#suma=0
 
-for i in range(10,100):
-  cs= i/100 
-  cd=i//10 #or (i%100)//10 or (i//10)%10
-  cj=i%10
-  if cd>=2*cj:
-    ilość +=1
-  print(ilość)
+#for i in range(10,100):
+ # cs= i/100 
+  #cd=i//10 #or (i%100)//10 or (i//10)%10
+ # cj=i%10
+ # if cd>=2*cj:
+   # ilość +=1
+  #print(ilość)
 
 #zadanie5

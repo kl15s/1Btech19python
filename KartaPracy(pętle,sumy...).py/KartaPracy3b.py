@@ -3,10 +3,8 @@
 #   print(i, end=" ")
 
 #zad2
-# a=1
-# while True:
-#      print(a**2) 
-#      a=a+2
+#for i in range(1,10,2):
+#   print(i**2)
 
 #zad3
 # for i in range(1000,10000):
