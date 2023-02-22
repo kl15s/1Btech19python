@@ -14,13 +14,47 @@
 # else:
 #   print("NIE")
 
-from math import gcd
+# from math import gcd
 
-licz1=int(input())
-mia1=int(input))
-licz2=int(input())
-mia2=int(input())
+# licz1=int(input())
+# mia1=int(input))
+# licz2=int(input())
+# mia2=int(input())
 
 #NWW mianowników
 #iloczyn mianowników/NWD(mianowników)
-wspolny= int(mia1 * mia2/ gcd(mia1,mia2))
+# wspolny= int(mia1 * mia2/ gcd(mia1,mia2
+
+
+#suma=0
+
+# for i in range(10,100):
+#   suma+=i
+# print(suma)
+
+# k=int(input())
+# suma=0
+
+# for i in range(k):
+#   x=int(input())
+#   suma+=x
+# print(suma)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
