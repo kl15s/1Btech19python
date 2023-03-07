@@ -3,7 +3,7 @@
 #s=int(input())
 
 #for i in range(len(s):2):
-  #if s(#kwadratowy i)== s(#kwadratowy  len(s)-1-i):
+  #if s[i]== s[len(s)-1-i):
     #exit("NIE JEST")
  # exit("JEST PALINDROMEM")
 

@@ -32,12 +32,12 @@
 #zadania
 #sprawdź czy napis jest palindromen
 
-s=input()
+# s=input()
 
-L=list(s)
-R=list(s)
-R.reverse()
-if L==R:
-  print("TAK")
-else:
-  print("NIE")
+# L=list(s)
+# R=list(s)
+# R.reverse()
+# if L==R:
+#   print("TAK")
+# else:
+#   print("NIE")
