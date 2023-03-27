@@ -14,20 +14,29 @@
 
 #zadanie 3 wypisz trzy ostatnie literki z wpisanego napisu w kolejności od końca
 
-b=input()
-for i in range(len(b)-1, len(b)-5,-1):
-  print(b[i], end="")
-print()
+# b=input()
+# for i in range(len(b)-1, len(b)-5,-1):
+#   print(b[i], end="")
+# print()
 
 #opcja druga
 
-L=list(b)
-L.reverse()
-b="".join(L)
-for i in range(4):
-  print(L[i], end="")
-print()
+# L=list(b)
+# L.reverse()
+# b="".join(L)
+# for i in range(4):
+#   print(L[i], end="")
+# print()
 
 #opcja trzecia
 
-print(b[len(b)-1:len(b)-5:-1])
+# print(b[len(b)-1:len(b)-5:-1])
+
+#zadanie 4
+#waga napisu to sum a kodów ascii jego liter zważ wpisany napis
+
+c=input()
+suma=0
+for i in c:
+  suma+=ord(i)
+print(suma)
