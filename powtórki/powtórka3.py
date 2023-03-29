@@ -35,8 +35,45 @@
 #zadanie 4
 #waga napisu to sum a kodów ascii jego liter zważ wpisany napis
 
-c=input()
-suma=0
-for i in c:
-  suma+=ord(i)
-print(suma)
+# c=input()
+# suma=0
+# for i in c:
+#   suma+=ord(i)
+# print(suma)
+
+#zadanie 5 policz ile jest literek a
+
+#opcja 1
+# e=input()
+# ilosc=0
+
+# for x in e:
+#   if x== "A":
+#     ilosc += 1
+# print(ilosc)
+
+#opcja 2
+# print(e.count("A"))
+
+#zadanie 6 podaj dominującą literkę we wpisanym napisie
+#UWAGA NIECH TO BĘDZIE JEDNA LIERTKA
+
+# g=input()
+# maksik=0
+
+# for x in g:
+#   if g.count>maksik:
+#     maksik =g.count(x)
+#     literka = x
+# print(literka, maksik)
+
+#zadanie 7
+#sprawdź czy w napisie występują trzy podciągi "LA"
+# h=input()
+# print(h.count("LAM"))
+
+h=input()
+ilosc=0
+for i in range(len(h)):
+  if h[i:i+2] == "LA":
+    
