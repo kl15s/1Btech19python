@@ -72,8 +72,12 @@
 # h=input()
 # print(h.count("LAM"))
 
-h=input()
-ilosc=0
-for i in range(len(h)):
-  if h[i:i+2] == "LA":
-    
+# h=input()
+# ilosc=0
+# for i in range(len(h)):
+#   if h[i:i+2] == "LA":
+#     ilosc+=1
+#   if ilosc == 3:
+#     print("TAK")
+#   else:
+#     print("NIE")
