@@ -1,3 +1,13 @@
+#ZAGADNENIA POTRZEBNE NA SPRAWDZIAN3:
+#napisy-> len,for, foreach,ord,chr
+#indeksy, zakresy
+# konwersje list<->
+#list-sort reverse
+#split, join
+#algorytmy -> anagram, palindom, Boyer-Moore 
+
+#PRZYKŁADOWE ZADANIA
+
 #zadanie 1 czytaj dowolny napis i wypisz z niego pierwszą i ostatnią literkę
 
 # x= input()
