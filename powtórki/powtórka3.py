@@ -91,3 +91,33 @@
 #     print("TAK")
 #   else:
 #     print("NIE")
+
+
+#zadania ze sprawdzianu w ramach ćwiczeń
+
+#zadanie 1 Rozważmy wszystkie słowa, które posiadają dokładnie dwa t5akie same znaki oraz pozostałe znaki inne niż wspomniana para. Np. baza matka barszcz. Wypisz wsystkie znaki ze słowa, które znajdują się między parą takich samych znaków
+
+# s=input()
+
+# for i in range(len(s)):
+#   if s.count(s[i])>1:
+#     dubel=s[i]
+# print(dubel)
+# print(s.index(dubel, s.index(dubel)+1))
+  
+#zadanie2 Przekształć podane słowo do postaci paro-tylnej. Dzielimy słowona pary znaków od końca. Każdą parę wypisujemy w kolejności odwrotnej i w ten sposób tworzymy nowe słowo.
+
+# s=input()
+# L=list(s)
+# L.reverse()
+# s= "".join(L)
+# print(s)
+
+#zadanie 3 Sprawdź czy podane przez usera słowo jest niemalejące alfabetycznie, czyli każda kolejna literka w nim jest alfabetycznie nie mniejsza niż poprzednia
+
+# s=input()
+# for i in range(len(s)-1):
+#   if s[i+1] < s[i]:
+#     print("NIE JEST GIT")
+#     exit(0)
+# print()
